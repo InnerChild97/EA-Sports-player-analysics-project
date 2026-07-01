@@ -1,4 +1,4 @@
-#EA-Sports-player-analysics-project
+# EA-Sports-player-analysics-project
 ## Predicting Football Player Market Value Using Machine Learning
 
 ## Project Overview
@@ -100,7 +100,7 @@ EA-FC24-Player-Value-Prediction/
 │── chat.txt
 │── README.md
  
-## 📚 References
+## References
 
 - Stefano Leone. EA SPORTS FC 24 Complete Player Dataset.
 - https://www.kaggle.com/datasets/stefanoleone992/ea-sports-fc-24-complete-player-dataset
