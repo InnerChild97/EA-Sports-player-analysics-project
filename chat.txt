@@ -1,0 +1,186 @@
+=========================================================
+Generative AI Interaction Log
+Project: Predicting Football Player Market Value Using Machine Learning
+AI Tool Used: OpenAI ChatGPT (GPT-5.5)
+=========================================================
+
+Purpose
+-------
+ChatGPT was used throughout this project to assist with project planning,
+exploratory data analysis, model development, interpretation of results,
+and documentation. All generated code and recommendations were reviewed,
+tested, and adapted before inclusion in the final notebook.
+
+=========================================================
+Prompt 1
+=========================================================
+
+I need to complete a data science project that includes exploratory data analysis,
+Linear Regression, Polynomial Regression, Ridge Regression, and hyperparameter
+tuning. Can you recommend several Kaggle datasets suitable for regression that
+would make a good portfolio project?
+
+Summary of Response
+
+- Recommended several regression datasets.
+- Compared the advantages and disadvantages of each.
+---------------------------------------------------------
+Prompt 2
+
+I selected the EA SPORTS FC 24 dataset. Help me structure a professional
+Jupyter Notebook for this project.
+I selected the  EA SPORTS FC 24 Complete Player Dataset because it contains
+numerous numerical features, a continuous target variable (value_eur),
+  and is suitable for EDA and regression analysis. Help me come up with a professional
+structure for the Jupyter Notebook for this project.
+
+
+Summary of Response
+- Outlined what the notebook should entail.
+- Suggested professional markdown sections.
+- Suggested a project summary of :
+    • Introduction
+    • Dataset Overview
+    • Data Cleaning
+    • Exploratory Data Analysis
+    • Regression Modeling
+    • Hyperparameter Tuning
+    • Model Comparison
+    • Conclusion
+---------------------------------------------------------
+
+Prompt 3
+How should I clean and prepare the dataset before building regression models?
+
+Summary of Response
+
+- Checked for duplicate records.
+- Identified missing values.
+- Selected relevant variables.
+- Filtered the historical dataset to include only EA SPORTS FC 24 players.
+- Removed rows containing missing values in selected modeling features.
+
+---------------------------------------------------------
+
+Prompt 4
+
+Help me perform exploratory data analysis and recommend useful visualizations.
+
+Summary of Response
+
+Suggested visualizations including:
+
+- Distribution of player market values
+- Age distribution
+- Overall rating distribution
+- Correlation heatmap
+- Scatter plots
+- Boxplots
+- Interpretation of each visualization
+
+---------------------------------------------------------
+
+Prompt 5
+
+Help me develop a Single Variable Linear Regression model using Overall Rating
+to predict player market value.
+
+Summary of Response
+
+- Selected predictor and target variables.
+- Split the data into training and testing sets.
+- Trained a Linear Regression model.
+- Evaluated RMSE, MAE and R².
+- Interpreted the model results.
+
+---------------------------------------------------------
+
+Prompt 6
+
+Help me build a Multiple Linear Regression model using multiple player
+attributes.
+
+Summary of Response
+
+Selected predictors included:
+
+- Overall
+- Potential
+- Age
+- Wage
+- Height
+- Weight
+- Pace
+- Shooting
+- Passing
+- Dribbling
+- Defending
+- Physic
+- International Reputation
+- Skill Moves
+- Weak Foot
+
+The model was trained and evaluated using RMSE, MAE and R².
+
+---------------------------------------------------------
+
+Prompt 7
+
+Help me implement Polynomial Regression 
+
+Summary of Response
+
+- Built a Polynomial Regression model.
+- Compared results with Linear Regression.
+- Explained why polynomial features capture nonlinear relationships.
+- Compared evaluation metrics.
+
+---------------------------------------------------------
+
+Prompt 8
+
+Help me implement Ridge Regression using GridSearchCV.
+
+Summary of Response
+
+- Created Ridge Regression model.
+- Defined candidate alpha values.
+- Applied GridSearchCV with five-fold cross validation.
+- Selected the optimal alpha.
+- Evaluated the final model using RMSE, MAE and R².
+
+---------------------------------------------------------
+
+Prompt 9
+
+Help me compare all regression models and determine which performed best.
+
+Summary of Response
+
+- Created a comparison table.
+- Compared RMSE.
+- Compared MAE.
+- Compared R².
+- Determined the best-performing model.
+- Explained why Multiple Linear Regression slightly outperformed the other models.
+
+---------------------------------------------------------
+
+Prompt 10
+
+Help me write the conclusion for the notebook.
+
+Summary of Response
+
+Generated a conclusion summarizing:
+
+- Project objective
+- Data cleaning
+- Exploratory Data Analysis
+- Model performance
+- Key findings
+- Limitations
+- Future work
+
+---------------------------------------------------------
+=========================================================
